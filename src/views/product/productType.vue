@@ -102,7 +102,7 @@
                 console.log(this);
                 this.$http.get("/product/productType/treeData")
                     .then(res=>{
-                        console.log(this);
+
                         this.productTypes = res.data;
                     });
 
